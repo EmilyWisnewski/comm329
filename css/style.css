@@ -13,7 +13,7 @@ img {
 body {
   color: #444;
   font-size: 1.6rem;
-  font-family: 'Gentium Book Basic', serif;
+  font-family: 'Gentium Book Basic', Serif;
 }
 p {
   margin-bottom: .67em;
@@ -63,9 +63,11 @@ header h1 {
   justify-tracks: auto;
   margin: 0 auto;
   padding: 0 auto;
+  text-align: center;
 }
 .small {
   margin-top: 1em;
+  text-align: center;
 }
 /*-- Article Styles--*/
 article {

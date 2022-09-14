@@ -11,20 +11,21 @@ img {
 	height: auto;
 }
 body {
-  color: #444;
+  color: saddlebrown;
   font-size: 1.6rem;
   font-family: 'Gentium Book Basic', Serif;
+  background-color: tan;
 }
 p {
   margin-bottom: .67em;
 }
 nav, footer {
-  background-color: #444;
+  background-color: wheat;
 }
 footer {
   text-align: center;
   padding: 1em 0 .3em 0;
-  color: #D0D0D0;
+  color: saddlebrown;
 }
 /*-- Main Menu Styles--*/
 nav ul {
@@ -36,15 +37,15 @@ nav ul {
   margin: 0em;
 }
 nav a:link, nav a:visited {
-  color: #D0D0D0;
+  color: saddlebrown;
   text-decoration: none;
 }
 nav a:hover, nav a:active  {
-  color: #F0F0F0;
+  color: saddlebrown;
   text-decoration: underline;
 }
 nav a.active {
-  color: #F0F0F0;
+  color: saddlebrown;
 }
 /*-- Hero Unit Styles--*/
 header {
@@ -97,19 +98,19 @@ article figcaption {
   width: 96%;
 }
 a.button {
-  border: 4px solid #222;
+  border: 4px solid saddlebrown;
   padding: .4em 1em .4em 1em;
   text-decoration: none;
-  color: #222;
+  color: saddlebrown;
   border-radius: 200px;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   font-size: 80%;
 }
 a.button:hover, a.button:active {
-  border: 2px solid #222;
+  border: 2px solid wheat;
   text-decoration: none;
-  color: #222;
+  color: saddlebrown;
 }
 /*-- changes header and article width on small screens --*/
 @media screen and (max-width: 768px) {

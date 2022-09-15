@@ -93,9 +93,10 @@ article figcaption {
   font-family: Verdana;
 }
 .pagination {
-  margin-top: 2em;
-  margin-bottom: 2em;
-  width: 96%;
+  margin: 2em auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
 }
 a.button {
   border: 4px solid saddlebrown;
